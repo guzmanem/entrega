@@ -1,0 +1,127 @@
+a            { text-decoration: underline; color: blue }
+a:hover      { text-decoration: underline }
+body         { font-size: 8pt; font-family: Tahoma }
+.nothing     { width: 1px; height: 1px; border: 1 none transparent }
+input        { font-family: Tahoma, Verdana, Arial; font-size: 8pt }
+.tab         { background-color: #808000; color: #FFFFFF; border-left: 1 solid #000000; 
+               border-right: 1 solid #000000; border-top: 1 solid #000000; 
+               border-bottom: 1 solid #808000 }
+.tab_current { background-color: white; color: black; font-weight: bold; height: 25; 
+               border-left: 1 solid #000000; border-right: 1 solid #000000; 
+               border-top: 1 solid #000000; border-bottom: 1 solid white }
+.tab_exit    { background-color: #800000; color: #FFFFFF; border-left: 1 solid #000000; 
+               border-right: 1 solid #000000; border-top: 1 solid #000000; 
+               border-bottom: 1 solid #800000 }
+.text        { 	BORDER-RIGHT: 1px inset; PADDING-RIGHT: 1pt; BORDER-TOP: 1px inset; PADDING-LEFT: 1pt; PADDING-BOTTOM: 1pt; BORDER-LEFT: 1px inset; PADDING-TOP: 1pt; BORDER-BOTTOM: 1px inset; HEIGHT: 13pt }
+.button      { font-family: Arial; font-size: 9pt; font-weight: bold; background-color: 
+               #808080; color: #FFFFFF; border: 1 outset #FFFFFF }
+.button_red  { font-family: Arial; font-size: 9pt; font-weight: bold; background-color: 
+               #993333; color: #FFFFFF; border: 1 outset #FFFFFF }
+td           { font-size: 8pt }
+.cel_tab     { border-bottom: 1 solid black }
+select       { font-family: Tahoma, Verdana, Arial; font-size: 8pt }
+
+
+BODY {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma,Verdana,Trebuchet MS,Helvetica,Arial
+}
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma,Verdana,Trebuchet MS,Helvetica,Arial
+}
+BODY {
+	MARGIN: 0px; COLOR: #888
+}
+A:link {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f30; TEXT-DECORATION: underline
+}
+A.blu:link {
+	COLOR: #0099ff; TEXT-DECORATION: none
+}
+A.blu:visited {
+	COLOR: #0099ff; TEXT-DECORATION: none
+}
+A.blu:hover {
+	COLOR: #6cf; TEXT-DECORATION: underline
+}
+TD.index {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+INPUT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #ccc 1px solid; COLOR: #666; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Tahoma,Verdana,Trebuchet MS,Helvetica,Arial
+}
+TEXTAREA {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #ccc 1px solid; COLOR: #666; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Tahoma,Verdana,Trebuchet MS,Helvetica,Arial
+}
+SELECT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #ccc 1px solid; COLOR: #666; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Tahoma,Verdana,Trebuchet MS,Helvetica,Arial
+}
+INPUT.inp {
+	
+}
+TEXTAREA.inp {
+	
+}
+SELECT.inp {
+	
+}
+TEXTAREA.inp {
+	
+}
+INPUT.btn {
+	BORDER-RIGHT: #c0c0c0 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #c0c0c0 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 8pt; BACKGROUND: url(images/grad_v_20px_btn.jpg) white fixed no-repeat right -1px; PADDING-BOTTOM: 0px; BORDER-LEFT: #c0c0c0 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 0px; BORDER-BOTTOM: #c0c0c0 1px solid; HEIGHT: 21px
+}
+TD.lbl {
+	FONT-SIZE: 8pt; VERTICAL-ALIGN: top; COLOR: #000; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+TD.field_name {
+	FONT-SIZE: 8pt; VERTICAL-ALIGN: top; COLOR: #000; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+DIV.cont {
+	overflowx: hidden; overflowy: auto
+}
+.check {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 10pt; BORDER-TOP: 0px; PADDING-LEFT: 0pt; BORDER-LEFT: 0px; WIDTH: 10pt; BORDER-BOTTOM: 0px; HEIGHT: 10pt; BACKGROUND-COLOR: transparent
+}
+.style2 {color: #0000FF}
+.cel_tab {border-bottom: 1 solid #888 }
+.dayNamesRow {    line-height: 12pt;
+	background-color: #F5F4D3;
+	text-align: center;
+	vertical-align: middle;
+}
+.dayNamesText {    font-family: Geneva, Verdana, Arial, sans-serif; 
+	font-size: 7pt; 
+	/*font-weight: Bold; */
+	color: #433D27;
+	background-image: url(cal_es/dayBg.gif);
+}
+.mainTable {	background-color: #FFFFFF;
+	border: 1px solid #003366;
+}
+.nothing {width: 1px; height: 1px; border: 1 none transparent }
+.rows {	font-family: Geneva, Verdana, Arial, sans-serif;
+	font-size: 8pt;
+	color: #433D27;
+    line-height: 15pt;
+	text-align: center;
+	vertical-align: middle;
+}
+.s20 {	background-image:  url("cal_es/cdef5.gif");
+	background-color: #EBEBEB;
+}
+.s22 {	background-image:  url("cal_es/cdef2.gif");
+	background-color: #F5E0D8;
+}
+.tab {background-color: #808000; color: #FFFFFF; border-left: 1 solid #000000; 
+               border-right: 1 solid #000000; border-top: 1 solid #000000; 
+               border-bottom: 1 solid #808000 }
+.tab_current {background-color: white; color: #888; font-weight: bold; height: 25; 
+               border-left: 1 solid #888; border-right: 1 solid #888; 
+               border-top: 1 solid #888; border-bottom: 1 solid white }
+.style3 {color: #000000}
